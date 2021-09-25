@@ -1,111 +1,70 @@
-<p align="center">
-  <a href="https://boardgame.io/">
-    <img src="https://raw.githubusercontent.com/boardgameio/boardgame.io/main/docs/logo-optimized.svg?sanitize=true" alt="boardgame.io" />
-  </a>
-</p>
+# Getting Started with Create React App
 
-<p align="center">
-<a href="https://www.npmjs.com/package/boardgame.io"><img src="https://badge.fury.io/js/boardgame.io.svg" alt="npm version" /></a>
-<a href="https://github.com/boardgameio/boardgame.io/actions?query=workflow%3ATests"> <img src="https://github.com/boardgameio/boardgame.io/workflows/Tests/badge.svg" alt='Build Status'></a>
-<a href='https://coveralls.io/github/boardgameio/boardgame.io?branch=main'><img src='https://coveralls.io/repos/github/boardgameio/boardgame.io/badge.svg?branch=main' alt='Coverage Status' /></a>
-<a href="https://gitter.im/boardgame-io"><img src="https://badges.gitter.im/boardgame-io.svg" alt="Gitter" /></a>
-</p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<p align="center">
-<a href="#readme"><img src="https://img.shields.io/badge/Support_Us:-fff?style=flat-square" alt="Support us:" /></a>
-<a href="https://opencollective.com/boardgameio#support"><img src="https://img.shields.io/badge/Open_Collective-fff?logo=open-collective" alt="Open Collective" /></a>
-<a href="https://github.com/sponsors/boardgameio"><img src="https://img.shields.io/badge/GitHub_Sponsors-fff?logo=github-sponsors" alt="GitHub Sponsors" /></a>
-</p>
+## Available Scripts
 
-<p align="center">
-  <strong><a href="https://boardgame.io/documentation/#/">Read the Documentation</a></strong>
-</p>
+In the project directory, you can run:
 
-<p align="center">
-  <strong>boardgame.io</strong> is an engine for creating turn-based games using JavaScript.
-</p>
+### `npm start`
 
-Write simple functions that describe how the game state changes
-when a particular move is made. This is automatically converted
-into a playable game complete with online multiplayer
-features, all without requiring you to write a single line of
-networking or storage code.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Features
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-- **State Management**: Game state is managed seamlessly across clients, server and storage automatically.
-- **Multiplayer**: Game state is kept in sync in realtime and across platforms.
-- **AI**: Automatically generated bots that can play your game.
-- **Game Phases**: with different game rules and turn orders per phase.
-- **Lobby**: Player matchmaking and game creation.
-- **Prototyping**: Interface to simulate moves even before you render the game.
-- **Extendable**: Plugin system that allows creating new abstractions.
-- **View-layer Agnostic**: Use the vanilla JS client or the bindings for React / React Native.
-- **Logs**: Game logs with the ability to time travel (viewing the board at an earlier state).
+### `npm test`
 
-## Usage
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Installation
+### `npm run build`
 
-```sh
-npm install boardgame.io
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Documentation
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Read our [Full Documentation](https://boardgame.io/documentation/) to learn how to
-use boardgame.io, and join the [community on gitter](https://gitter.im/boardgame-io/General)
-to ask your questions!
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Running examples in this repository
+### `npm run eject`
 
-```sh
-npm install
-npm start
-```
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-The examples can be found in the [examples](examples/) folder.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-#### Using VS Code?
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-This repository is ready to run in a dev container in VS Code. See [the contributing guidelines for details](CONTRIBUTING.md).
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Changelog
+## Learn More
 
-See [changelog](docs/documentation/CHANGELOG.md).
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Get involved
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-We welcome contributions of all kinds!
-Please take a moment to review our [Code of Conduct](CODE_OF_CONDUCT.md).
+### Code Splitting
 
-🐛 **Found a bug?**  
-Let us know by [creating an issue][new-issue].
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-❓ **Have a question?**  
-Our [Gitter channel][gitter] and [GitHub Discussions][discussions]
-are good places to start.
+### Analyzing the Bundle Size
 
-⚙️ **Interested in fixing a [bug][bugs] or adding a [feature][features]?**  
-Check out the [contributing guidelines](CONTRIBUTING.md)
-and the [project roadmap](roadmap.md).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-📖 **Can we improve [our documentation][docs]?**  
-Pull requests even for small changes can be helpful. Each page in the
-docs can be edited by clicking the “Edit on GitHub” link at the top right.
+### Making a Progressive Web App
 
-💸 **Want to support the project financially?**  
-We accept donations via [GitHub Sponsors][sponsors] and on [Open Collective][collective].
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-[new-issue]: https://github.com/boardgameio/boardgame.io/issues/new/choose
-[gitter]: https://gitter.im/boardgame-io/General
-[discussions]: https://github.com/boardgameio/boardgame.io/discussions
-[bugs]: https://github.com/boardgameio/boardgame.io/issues?q=is%3Aissue+is%3Aopen+label%3Abug
-[features]: https://github.com/boardgameio/boardgame.io/issues?q=is%3Aissue+is%3Aopen+label%3Afeature
-[docs]: https://boardgame.io/documentation/
-[sponsors]: https://github.com/sponsors/boardgameio
-[collective]: https://opencollective.com/boardgameio#support
+### Advanced Configuration
 
-## License
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-[MIT](LICENSE)
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
